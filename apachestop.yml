@@ -1,0 +1,9 @@
+---
+- name: Stop Apache service on localhost
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Ensure Apache is stopped
+      service:
+        name: apache2
+        state: stopped
