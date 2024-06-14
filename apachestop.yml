@@ -5,5 +5,5 @@
   tasks:
     - name: Ensure Apache is stopped
       service:
-        name: apache2
+        name: httpd
         state: stopped
