@@ -7,5 +7,3 @@
       service:
         name: apache2
         state: stopped
-      environment:
-        my_env:localhost
