@@ -1,6 +1,6 @@
 ---
 - name: Stop Apache service on localhost
-  hosts: localhost
+  hosts: all
   become: yes
   tasks:
     - name: Ensure Apache is stopped
